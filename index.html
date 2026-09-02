@@ -10,39 +10,77 @@
         <!-- NAVIGATION -->
         <nav>
             <ul>
-                <li><a href="index.html"><!--logo --></a></li>
-                <li><a href="journal">MY ENTRYL</a></li>
-                <li><a href="register">REGISTER</a></li>
-                <li><a href="download">DOWNLOAD</a></li>    
+                <li><a href="index.html"><img src="images/gracelog-logo.svg" alt="GRACE LOG Logo"></a></li>
+                <li><a href="journal.html">MY ENTRY</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <!-- HERO SECTION -->
+        <section id="hero">
             <div>
-                <p>YOUR DAILY BIBLE STUDY COMPANION</p>
-                <h1>Catch the calm. Journal the Word. Consistently grow in faith.</h1>
-                <p>
-                    Capture every scripture, prayer, insight, and breakthrough in one peaceful place.
-                    The Bible Log helps you reflect, remember, and grow as you study God’s Word.
-                </p>
-                <div>
-                    <a href="journal.html">Start Journaling</a>
-                    <a href="#verse">Read the Verse</a>
-                </div>
+                <p>A quiet place to start your day</p>
+                <h1>Start Your Day Rooted in the Word</h1>
+                <p>In a world full of noise, find stillness in Scripture. Slow down, open His Word, and let it shape your heart, mind, and every step you take today.</p>
             </div>
         </section>
 
         <section id="verse">
-            <p>BIBLE VERSE</p>
+            <a href="#how_it_works">How It Works</a>
             <blockquote>
-                “Blessed is the one who does not walk in step with the wicked or stand in the way that sinners take
-                or sit in the company of mockers, but whose delight is in the law of the Lord, and who meditates on his law day and night.”
+                This Book of the Law shall not depart from your mouth, but you shall meditate on it day and night, so that you may be careful to do according to all that is written in it.
             </blockquote>
-            <p>Psalm 1:1-2</p>
+            <p>Joshua 1:8</p>
         </section>
-    </main>
 
+        <section id="call_to_action">
+            <p id="small"> Open Your Bible And Start Your Day</p>
+        </section>
+
+        <div>
+            <ul id="how_it_works">
+                <li>
+                    <h2>1. Read</h2>
+                    <p>Start your day with a passage from the Bible. Take a moment to read and reflect on the Word of God.</p>
+                </li>
+                <li>
+                    <h2>2. Reflect</h2>
+                    <p>Spend some time meditating on the passage. Consider how it applies to your life and what God may be speaking to you through His Word.</p>
+                </li>
+                <li>
+                    <h2>3. Write</h2>
+                    <p>Use our journal feature to write down your thoughts, prayers, and reflections. This will help you remember and apply what you've learned.</p>
+                </li>
+                <li>
+                    <h2>4. Share</h2>
+                    <p>Connect with our community by sharing your reflections and insights. Encourage others and be encouraged in your walk with God.</p>
+                </li>
+            </ul>
+            <p id="small">reflect on the Word of God</p>
+        </div>
+
+        <div>
+            <form action="Api/v3" method="post">
+                    <h2>Journal what you read <a href="journal.html" ><img src="images/journal-pen.svg" alt="Journal Icon" height="50"></a></h2>
+                    <p>After reading on your own, come back and write it down. No formatting rules, no pressure just a quiet space to record what stood out.</p>
+                    <p>Your entries stay here, organized by date, so you can look back on your walk through Scripture over weeks and months.</p>
+                    <label for="entry">Entry:</label>
+                    <textarea id="entry" name="entry" rows="4" cols="50" placeholder="What did you learn today?.."></textarea><br>
+                    <input type="submit" value="Save Entry" id="submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="index.html"><img src="images/gracelog-logo.svg" alt="GRACE LOG Logo"></a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </footer>
 </body>
 
 </html>
