@@ -1,19 +1,37 @@
  body {
     font-family: "Inter", sans-serif;
-    background-color: #eef1ec;
-    font-size: 17px;
+    background-color: #FBF9F4;
+    font-size: 25px;
     font-weight: 400;
+    color: #26312B;
     }
-ul,li ,a{
+ul,a{
     list-style: none;
     text-decoration: none;
-    font-size: 14px;
+    color:#6B8265
 }
-nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
+h1,h2,h3 {
+    text-align: center;
+    line-height:1.5;
+    letter-spacing: -2px;
+    font-weight: 700;
+    color: #26312B;
+    font-size: 72px;
+}
+.hero,.verse{
+    text-align: center;
+}
+.verse{
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height:1.5;
+    font-size:48px
+
+
+}
+.how-it-works{
+    text-align: left;
+}
+footer{
+    text-align: center;
 }
