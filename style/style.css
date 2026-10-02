@@ -1,0 +1,74 @@
+/*--------------BODY--------------*/
+body{
+    font-family:'Inter', sans-serif;
+    font-size:  18px; 
+    font-weight: 400;
+    background-color:#FBF9F4;
+    color:#26312B ;
+    letter-spacing: 0;
+    line-height:1.5;
+}
+
+/*--------------TEXTS--------------*/
+h1,h2,h3,h4{
+    font-family: 'fraunces',serif;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -2px;
+}
+h1{
+    font-size:62px;
+}
+h2{
+    font-size:44px;
+}
+h3{
+    font-size:30px;
+}
+.lead{
+    font-size: 32px;
+}
+.eyebrow{
+    font-size:16px;
+}
+.trust-line{
+    font-size: 22px;
+    color:#6B8265;
+}
+
+
+
+
+/*--------------COMPONENTS--------------*/
+ul{
+    list-style:none;
+    
+}
+a{
+    text-decoration: none;
+    color:#55704F;
+}
+.btn{
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight:500;
+}
+.btn-primary{
+    background-color:#6B8265;
+    color:#FBF9F4;
+}
+.journal-card{
+
+}
+
+/*--------------SECTIONS--------------*/
+footer{
+    font-size: 22px;
+    background-color:#26312B ;
+    text-align: center;
+    color:#FBF9F4 ;
+}
+.hero{
+    padding:20px
+}
